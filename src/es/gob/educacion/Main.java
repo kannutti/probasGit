@@ -17,6 +17,8 @@ public class Main {
 		String otra;
 		
 		String yotramas;
+		
+		String laultima;
 
 	}
 
