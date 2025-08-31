@@ -13,6 +13,8 @@ public class Main {
 		String rama = "Estamos en la rama develop";
 		
 		System.out.println(rama);
+		
+		String otra;
 
 	}
 
