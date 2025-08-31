@@ -11,6 +11,8 @@ public class Main {
 		System.out.println(DigestUtils.sha256Hex(nombre));
 		
 		String rama = "Estamos en la rama develop";
+		
+		System.out.println(rama);
 
 	}
 
