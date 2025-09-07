@@ -28,7 +28,9 @@ public class Main {
 		
 		
 		
-		System.out.println("Escrito en rama 1, primer commit");
+		System.out.println("Escrito en rama 2, primer commit");
+		
+		System.out.println("Escrito en rama 2, segundo commit");
 		
 		
 		
