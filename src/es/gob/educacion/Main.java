@@ -23,6 +23,16 @@ public class Main {
 		System.out.println("Hago commit en rama1_dev");
 		
 		System.out.println("Escribo esto en develop");
+		
+		
+		String texto = "Primer enlace: '/fileID_23543/fiscID_178' meto aquí más texto y más cosas. segundo enlace: href='/fileID_5643/fiscID_1' y más cosas...";
+		String regex = "/fileID_(\\d+)/fiscID_(\\d+)";
+		String textoNew = texto.replaceAll(regex, "javascript:abrirModoLectura($1,$2);");
+		
+		System.out.println("Texto original: " + texto);
+		System.out.println("Texto sustituido: " + textoNew);
+		
+		
 
 	}
 
