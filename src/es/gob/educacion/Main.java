@@ -83,6 +83,8 @@ public class Main {
 	        System.out.println("Fichero extraído: " + fichero);        
 	        System.out.println("Texto después de reemplazo parcial: " + texto);
 	        
+	        System.out.println("-------------------------------------------------------------------------------------------");
+	        
 	    }
 		
 		
